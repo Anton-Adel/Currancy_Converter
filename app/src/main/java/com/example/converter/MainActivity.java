@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
                    }
                    else
                    {
-                       float dollars=Float.parseFloat(T_2.getText().toString());
-                       c.setAmount(dollars);
+                       float pounds=Float.parseFloat(T_2.getText().toString());
+                       c.setAmount(pounds);
                        float res=c.convertToDollar();
                        T_1.setText(String.valueOf(res));
                    }

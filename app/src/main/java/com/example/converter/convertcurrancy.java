@@ -11,9 +11,9 @@ public class convertcurrancy {
         this.amount = amount;
     }
     public float convertToDollar() {
-        return (float) (amount * 19.8);
+        return (float) (amount / 19.8);
     }
     public float convertTopounds() {
-        return (float) (amount / 19.8);
+        return (float) (amount * 19.8);
     }
 }
